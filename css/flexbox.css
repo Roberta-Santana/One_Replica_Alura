@@ -21,7 +21,7 @@
 .menu__container{
     position: fixed;
     bottom: 0%;
-    height: 74px;
+    height: 4.5em;
     width: 100%;
 }
 
@@ -59,7 +59,7 @@
 .videos__container{
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
+    flex-grow: 3;
     gap: 10px;
 }
 
@@ -68,9 +68,15 @@
     width: 280px;
 }
 
+.videos__item:nth-child(4){
+    flex-shrink: 50;
+}
+
 .videos__item:nth-child(2){
     flex-grow: 3;
 }
+
+
 /* espaçamento entre os ítens na mão VS gap
 .superior__item{ margin-right: 15px;}
 .superior__item:last-child{ margin-right: 0;} */
